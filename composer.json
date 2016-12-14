@@ -1,0 +1,26 @@
+{
+	"name": "dtforce/resman-translate-nette",
+	"description": "A library to facilitate translation through generated resources.",
+	"license": "LGPL",
+	"authors": [
+		{
+			"name": "DTForce - Jan Mareš ",
+			"email": "jan.mares@dtforce.com",
+			"homepage": "http://www.dtforce.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6",
+		"dtforce/resman": "@dev"
+	},
+	"autoload": {
+		"psr-4": {
+			"DTForce\\ResManTranslate\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"DTForce\\ResManTranslate\\Tests\\": "tests"
+		}
+	}
+}
